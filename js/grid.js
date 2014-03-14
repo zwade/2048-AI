@@ -169,6 +169,7 @@ Grid.prototype.move = function (direction) {
 
   var vector     = this.getVector(direction);
   var traversals = this.buildTraversals(vector);
+  console.log(traversals);
   var moved      = false;
   var score      = 0;
   var won        = false;
@@ -205,7 +206,7 @@ Grid.prototype.move = function (direction) {
 
           // The mighty 2048 tile
           if (merged.value === 2048) {
-            won = true;
+            won = false;
           }
         } else {
           //if (debug) {

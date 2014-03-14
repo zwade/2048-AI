@@ -292,8 +292,8 @@ hr {
   font-weight: bold;
   z-index: 10;
   font-size: 55px;
-  -webkit-transition: 100ms ease-in-out;
-  -moz-transition: 100ms ease-in-out;
+  -webkit-transition: 0ms ease-in-out;
+  -moz-transition: 0ms ease-in-out;
   -webkit-transition-property: top, left;
   -moz-transition-property: top, left; }
   .tile.tile-2 {
@@ -670,8 +670,8 @@ hr {
     top: -30px;
     opacity: 0;
     pointer-events: none;
-    -webkit-transition: 400ms ease;
-    -moz-transition: 400ms ease;
+    -webkit-transition: 0ms ease;
+    -moz-transition: 0ms ease;
     -webkit-transition-property: top, opacity;
     -moz-transition-property: top, opacity; }
     .btc-donate .address:after {
